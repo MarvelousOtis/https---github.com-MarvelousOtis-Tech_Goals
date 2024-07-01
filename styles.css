@@ -1,0 +1,56 @@
+/* Add your styles here to customize the website's appearance */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  header,
+  footer {
+    background-color: #333; /* Dark gray for header and footer */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  main {
+    padding: 80px; /* Add padding for content */
+  }
+  
+  section p {
+    line-height: 1.5; /* Increase line spacing for readability */
+  }
+  
+  footer p {
+    margin: 0; /* Remove bottom margin */
+  }
+  
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Maintain aspect ratio and resize image to fit */
+  }
+  
+  /* Responsive Styles (Adjust as needed) */
+  
+  @media (max-width: 768px) {
+    main {
+      padding: 40px;
+    }
+    h1 {
+      font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+}  
